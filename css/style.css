@@ -1,0 +1,225 @@
+.full {
+  width: 100%;
+  height: 100%;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  -webkit-text-size-adjust: none;
+}
+.daohang {
+  width: 70px;
+  height: 70px;
+  margin-left: 5%;
+  position: relative;
+}
+.daohang .daohang1 {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  background: url("../img/daohang1.png") no-repeat;
+  background-size: 100% 100%;
+  -webkit-animation: rot1 2s linear infinite;
+}
+.daohang .daohang2 {
+  position: absolute;
+  width: 70%;
+  height: 70%;
+  top: 15%;
+  left: 15%;
+  background: url("../img/daohang2.png") no-repeat;
+  background-size: 100% 100%;
+  -webkit-animation: rot2 2s linear infinite;
+}
+.daohang .daohang3 {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 25%;
+  left: 25%;
+  background: url("../img/daohang3.png") no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+  line-height: 35px;
+  text-align: center;
+}
+@keyframes rot1 {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes rot2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+  }
+}
+#wrap {
+  width: 1000px;
+  margin: 0 auto;
+  background: url("../img/bg.jpg") no-repeat;
+  background-size: 100% auto;
+  overflow: hidden;
+}
+.nav {
+  width: 100%;
+}
+.nav .navtop {
+  width: 100%;
+  height: 10px;
+  background: url("../img/navtop.png") no-repeat;
+  background-size: 100% 100%;
+}
+.nav ul {
+  height: 40px;
+  margin-left: 10%;
+}
+.nav li {
+  float: left;
+  text-align: center;
+  color: #fff;
+  width: 70px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 10px;
+  background: url("../img/navborder.png") no-repeat;
+  background-size: 100% 100%;
+}
+.section {
+  width: 100%;
+}
+.section .sectionTop {
+  height: 70px;
+  margin-top: 10px;
+}
+.section .sectionCenter {
+  width: 100%;
+  margin-top: 15px;
+  height: 300px;
+}
+.section .sectionCenter .centerLeft {
+  opacity: 0;
+  float: left;
+  width: 280px;
+  height: 300px;
+  background: url("../img/tuopubg.png") no-repeat;
+  background-size: 100% auto;
+}
+.section .sectionCenter .centerLeft .xiala {
+  width: 160px;
+  height: 20px;
+  margin: 0 auto;
+  background-size: 100% 100%;
+  margin-top: 40px;
+  color: #fff;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: 1px solid #0a8ae3;
+  background: url("../img/seljiantou.png") no-repeat scroll right center transparent;
+  display: block;
+}
+.section .sectionCenter .centerLeft .xiala option {
+  border: none;
+  background-color: #00ACDC;
+  opacity: 0.5;
+}
+.section .sectionCenter .centerLeft .sbitem {
+  display: none;
+}
+.section .sectionCenter .centerLeft .sbbox {
+  width: 60%;
+  margin: 0 auto;
+  height: 30px;
+  color: #fff;
+  text-align: center;
+}
+.section .sectionCenter .centerLeft .sbbox h3 {
+  text-align: start;
+  padding-left: 10px;
+  background: url("../img/shebeishu.png") no-repeat;
+  background-size: 100% 100%;
+  margin-top: 5px;
+}
+.section .sectionCenter .centerLeft .sbbox ul li {
+  background: url("../img/shebeishuitem.png") no-repeat;
+  background-size: 100% 100%;
+  margin-left: 12px;
+}
+.section .sectionCenter .centerCenter {
+  float: left;
+  width: 230px;
+  height: 180px;
+  margin-left: 140px;
+  margin-top: 70px;
+  background: url("../img/tkbg.png") no-repeat;
+  background-size: 100% auto;
+}
+.section .sectionCenter .centerRight {
+  width: 180px;
+  height: 180px;
+  float: right;
+  -webkit-animation: trans 2s linear ;
+}
+@keyframes trans {
+  0% {
+    -webkit-transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+  }
+}
+.section .sectionCenter .centerRight .crNav {
+  height: 30px;
+  margin-left: 17px;
+}
+.section .sectionCenter .centerRight .crNav li {
+  float: left;
+  width: 88px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+.section .sectionCenter .centerRight .crNav .shuxing {
+  background: url("../img/shuxing.png") no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+}
+.section .sectionCenter .centerRight .crNav .xinxi {
+  background: url("../img/liuxinxi.png") no-repeat;
+  background-size: 100% 100%;
+  margin-left: -14px;
+  color: #000;
+}
+.section .sectionCenter .centertext {
+  width: 180px;
+  height: 180px;
+  margin-top: -7px;
+  background: url("../img/mbbg.png") no-repeat;
+  background-size: 100% auto;
+}
+.sectionBottom {
+  width: 100%;
+  height: 105px;
+  margin-top: 30px;
+}
+.sectionBottom ul {
+  margin-left: 100px;
+}
+.sectionBottom ul li {
+  float: left;
+  width: 45px;
+  height: 50px;
+  margin-left: 10px;
+  background: url("../img/bottomitem.png") no-repeat;
+  background-size: 100% auto;
+}
+.sectionBottom .daohangfoot {
+  margin-left: 845px;
+}
